@@ -8,7 +8,7 @@ app.use(express.static('public'));
 
 // Route that displays the message
 app.get('/', (req, res) => {
-    res.send('<h1>Hello World , This is my App</h1>');
+    res.send('<h1>Hello World , Success</h1>');
 });
 
 // Start the server on 0.0.0.0
